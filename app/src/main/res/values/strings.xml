@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AssignmentThree</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="contact">Contact</string>
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

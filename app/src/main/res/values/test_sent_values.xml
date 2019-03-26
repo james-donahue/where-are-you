@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="test_sent_values">
+        <item>Fredericksburg, VA</item>
+        <item>Stafford, VA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <fragment
+            android:id="@+id/test_contact_list"
+            android:name="edu.umw.cpsc.donahue.james.assignmentthree.ContactFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".30" />
+
+        <fragment
+            android:id="@+id/test_locations"
+            android:name="edu.umw.cpsc.donahue.james.assignmentthree.LocationFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".70" />
+    </LinearLayout>
+
+</LinearLayout>
